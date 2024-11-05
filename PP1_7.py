@@ -13,8 +13,8 @@ def q1():
 def q2():
   #Write code here
   num = input("Input an integer: ")
-  num = (int(num))
-  bool = 5 > num
+  num = int(num)
+  bool = 5 < num
   print(bool)
 
 def q3():
