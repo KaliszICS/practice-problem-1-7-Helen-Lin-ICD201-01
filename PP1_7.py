@@ -12,9 +12,9 @@ def q1():
 
 def q2():
   #Write code here
-  num1 = input("Input an integer: ")
-  num1 = int(num1)
-  bool = num1 =< 5
+  num = input("Input an integer: ")
+  num = int(num)
+  bool = 5 >= num
   print(bool)
 
 def q3():
@@ -35,7 +35,8 @@ def q5():
   num2 = input("Input another integer: ")
   num1 = int(num1)
   num2 = int(num2)
-  bool = num1*num2 >= 40 
+  num3 = num1*num2
+  bool = num3 >= 40
   print(f"Your numbers multiplied together are greater than 40: {bool}")
 
 #Do edit the code below
