@@ -14,8 +14,6 @@ def q2():
   #Write code here
   num1 = input("Input an integer: ")
   num1 = int(num1)
-  bool1 = True
-  bool1 = False
   bool1 = 5 >= num1
   print(bool1)
 
@@ -30,8 +28,6 @@ def q3():
 def q4():
   #Write code here
   word = input("Input a word that comes earlier than the word google: ")
-  bool1 = True
-  bool1 = False
   bool1 = "google" > word
   print(bool1)
 
@@ -41,8 +37,6 @@ def q5():
   num2 = input("Input another integer: ")
   num1 = int(num1)
   num2 = int(num2)
-  bool1 = True
-  bool1 = False
   bool1 = num1*num2 >= 40 
   print(bool1)
 
